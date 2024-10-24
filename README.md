@@ -1,61 +1,71 @@
-Manual de Usuário - Gerador QR Code Customizável (Versão Executável)
-Índice:
-Introdução
-Requisitos do Sistema
-Instalação
-Como Usar
-Geração de QR Code
-Exibição do Local do Arquivo
-Funcionamento
-Solução de Problemas
-Créditos
-Introdução
-O Gerador QR Code Customizável é uma ferramenta simples e fácil de usar que permite a criação de QR Codes personalizados a partir de textos ou URLs inseridos pelo usuário. Ele também oferece a opção de visualizar a localização do arquivo gerado diretamente no explorador de arquivos.
+# Gerador e Leitor de QR Code Customizável
 
-Este manual tem como objetivo orientar os usuários a utilizar a versão executável do programa, que já inclui todas as bibliotecas necessárias.
+Este é um programa simples para gerar e ler QR Codes, desenvolvido em Python com uma interface gráfica (GUI) utilizando o `tkinter`. O programa permite que o usuário insira um texto ou URL, que será convertido em um QR Code e salvo como uma imagem `.png`. O QR Code pode ser lido posteriormente para recuperar o texto ou URL.
 
-Requisitos do Sistema
-Sistema Operacional: Windows 7 ou superior
-Memória RAM: 2 GB (recomendado)
-Armazenamento: 50 MB de espaço livre
-Resolução de Tela: 1024x768 ou superior
-Instalação
-Baixe o arquivo executável do programa (GeradorQRCode.exe) do repositório ou site onde está hospedado.
-Não há necessidade de instalar pacotes adicionais ou bibliotecas, pois todas as dependências estão incluídas no executável.
-Simplesmente execute o arquivo baixado para iniciar o programa.
-Como Usar
-Geração de QR Code
-Abra o programa clicando no arquivo executável (GeradorQRCode.exe).
-Digite o texto ou URL que deseja converter em um QR Code na caixa de entrada principal.
-Exemplo: https://github.com/LeoMSgit ou qualquer outro texto.
-Clique no botão "Gerar QR Code".
-Uma janela de confirmação será exibida informando que o QR Code foi gerado com sucesso e salvo como meu_qrcode.png no diretório atual do programa.
-Exibição do Local do Arquivo
-Para verificar onde o QR Code foi salvo no seu computador, clique no botão "Mostrar local do arquivo".
-O explorador de arquivos será aberto diretamente na pasta onde o arquivo meu_qrcode.png está salvo.
-Você pode então visualizar, mover ou compartilhar o arquivo.
-Funcionamento
-Geração de QR Code: O programa usa a biblioteca qrcode para gerar a imagem do QR Code com base no texto inserido pelo usuário.
-Exibição de Arquivo: Usa comandos do sistema operacional para abrir a pasta onde o QR Code foi salvo.
-O QR Code gerado é salvo com o nome meu_qrcode.png na pasta onde o programa está sendo executado.
+## Funcionalidades
 
-Solução de Problemas
-O arquivo meu_qrcode.png não foi encontrado:
+- **Gerar QR Code**: Insira um texto ou URL e gere um QR Code correspondente.
+- **Ler QR Code**: Abra uma imagem de QR Code e decodifique-a para recuperar o conteúdo.
+- **Interface Gráfica**: Interface simples e intuitiva, construída com `tkinter` e estilizada com o tema `clam`.
+- **Explorar Local de Salvamento**: Abra o explorador de arquivos diretamente na pasta onde o QR Code foi salvo.
 
-Verifique se você realmente gerou o QR Code clicando no botão "Gerar QR Code".
-Caso o arquivo tenha sido removido ou movido, gere um novo QR Code.
-Erro ao abrir o explorador de arquivos:
+## Tecnologias Utilizadas
 
-Verifique se o arquivo meu_qrcode.png ainda está no diretório original.
-Certifique-se de que seu sistema operacional está funcionando corretamente.
-O programa não abre:
+- **Python 3.x**
+- **Tkinter**: Para a interface gráfica.
+- **qrcode**: Biblioteca para a geração de QR Codes.
+- **pyzbar**: Biblioteca para leitura e decodificação de QR Codes.
+- **OpenCV (cv2)**: Para processamento de imagens e leitura de QR Codes.
 
-Certifique-se de que o arquivo executável foi baixado corretamente.
-Verifique se você possui os requisitos mínimos de sistema.
-Créditos
-Desenvolvido por: Leonardo Miguel dos Santos
-Bibliotecas utilizadas:
-qrcode para geração de QR Codes
-pyzbar e cv2 para leitura de QR Codes (caso adicione uma funcionalidade futura)
-Tkinter para a interface gráfica do usuário (GUI)
-Para mais informações ou relatórios de bugs, visite o repositório oficial: GitHub.
+## Requisitos do Sistema
+
+- Windows 10 ou superior.
+- **Python**: Embora o programa tenha sido empacotado como um executável, o Python não é necessário para executar o arquivo `.exe`.
+
+## Instruções de Instalação
+
+Se você deseja apenas usar o programa, basta baixar o executável disponível no repositório e executá-lo diretamente. Não é necessário instalar nenhuma biblioteca ou dependência, pois todas estão incluídas no executável.
+
+### Executando o Programa
+
+1. Baixe o executável do programa no repositório.
+2. Execute o arquivo baixado (ex: `GeradorQRCode.exe`).
+3. O programa abrirá uma interface gráfica com as seguintes opções:
+   - **Digite o site ou texto**: Insira o texto ou URL que você deseja converter em QR Code.
+   - **Gerar QR Code**: Clique neste botão para gerar e salvar o QR Code como `meu_qrcode.png`.
+   - **Mostrar local do arquivo**: Abre o explorador de arquivos na pasta onde o QR Code foi salvo.
+
+### Gerando um QR Code
+
+1. Insira o texto ou URL no campo de entrada.
+2. Clique no botão **Gerar QR Code**.
+3. O QR Code será gerado e salvo no mesmo diretório do executável com o nome `meu_qrcode.png`.
+4. Uma mensagem de sucesso será exibida informando que o arquivo foi salvo.
+
+### Mostrando o Local do Arquivo
+
+1. Após gerar o QR Code, clique no botão **Mostrar local do arquivo**.
+2. O explorador de arquivos será aberto diretamente na pasta onde o arquivo foi salvo.
+
+### Leitura de QR Code (Planned Feature)
+
+Atualmente, o programa suporta apenas a geração de QR Codes. A leitura de QR Codes será implementada em uma futura versão.
+
+## Possíveis Problemas de Execução
+
+- **Bloqueio em Computadores Corporativos**: Em ambientes corporativos, o programa pode ser bloqueado por políticas de segurança, como o Windows Defender SmartScreen ou antivírus. Se isso acontecer:
+  - Entre em contato com o administrador de TI para verificar a execução do programa.
+  - Considere assinar digitalmente o executável para evitar bloqueios por segurança.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* e enviar *pull requests* para melhorar este projeto.
+
+1. Fork o repositório.
+2. Crie uma *branch* (`git checkout -b feature/nova-feature`).
+3. Faça suas modificações e *commits* (`git commit -m 'Adiciona nova feature'`).
+4. Envie o *pull request*.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
