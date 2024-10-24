@@ -11,7 +11,7 @@ Este é um programa simples para gerar e ler QR Codes, desenvolvido em Python co
 
 ## Tecnologias Utilizadas
 
-- **Python 3.x**
+- **Python 3.12**
 - **Tkinter**: Para a interface gráfica.
 - **qrcode**: Biblioteca para a geração de QR Codes.
 - **pyzbar**: Biblioteca para leitura e decodificação de QR Codes.
@@ -20,7 +20,6 @@ Este é um programa simples para gerar e ler QR Codes, desenvolvido em Python co
 ## Requisitos do Sistema
 
 - Windows 10 ou superior.
-- **Python**: Embora o programa tenha sido empacotado como um executável, o Python não é necessário para executar o arquivo `.exe`.
 
 ## Instruções de Instalação
 
@@ -28,28 +27,14 @@ Se você deseja apenas usar o programa, basta baixar o executável disponível n
 
 ### Executando o Programa
 
-1. Baixe o executável do programa no repositório.
-2. Execute o arquivo baixado (ex: `GeradorQRCode.exe`).
+1. Baixe o arquivo executável do software via Repositório GitHub [aqui](https://github.com/LeoMSgit/Extrator-de-Parametros-Analise-Hemograma-e-Bioquimico/releases/tag/release_2) ou o arquivo compactado via Google Drive [aqui](https://drive.google.com/file/d/1vNuqSGfoqxno3TLFV-Q-4J7KFS94tN7g/view?usp=sharing).
+
+2. Execute o arquivo 'GeradorQRCode.exe'.
+
 3. O programa abrirá uma interface gráfica com as seguintes opções:
    - **Digite o site ou texto**: Insira o texto ou URL que você deseja converter em QR Code.
    - **Gerar QR Code**: Clique neste botão para gerar e salvar o QR Code como `meu_qrcode.png`.
    - **Mostrar local do arquivo**: Abre o explorador de arquivos na pasta onde o QR Code foi salvo.
-
-### Gerando um QR Code
-
-1. Insira o texto ou URL no campo de entrada.
-2. Clique no botão **Gerar QR Code**.
-3. O QR Code será gerado e salvo no mesmo diretório do executável com o nome `meu_qrcode.png`.
-4. Uma mensagem de sucesso será exibida informando que o arquivo foi salvo.
-
-### Mostrando o Local do Arquivo
-
-1. Após gerar o QR Code, clique no botão **Mostrar local do arquivo**.
-2. O explorador de arquivos será aberto diretamente na pasta onde o arquivo foi salvo.
-
-### Leitura de QR Code (Planned Feature)
-
-Atualmente, o programa suporta apenas a geração de QR Codes. A leitura de QR Codes será implementada em uma futura versão.
 
 ## Possíveis Problemas de Execução
 
@@ -65,6 +50,9 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* e envia
 2. Crie uma *branch* (`git checkout -b feature/nova-feature`).
 3. Faça suas modificações e *commits* (`git commit -m 'Adiciona nova feature'`).
 4. Envie o *pull request*.
+
+## **Apoio Técnico**
+Se houver qualquer dúvida ou problema com o programa, entre em contato com o suporte técnico através do e-mail **leoms-98@hotmail.com** ou no GitHub em **@leomsgit**.
 
 ## Licença
 
