@@ -1,4 +1,4 @@
-import qrcode
+import qrcode 
 import cv2
 from pyzbar.pyzbar import decode
 from PIL import Image
