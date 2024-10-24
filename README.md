@@ -1,4 +1,4 @@
-# Gerador e Leitor de QR Code Customizável
+# Gerador QR Code Customizável
 
 Este é um programa simples para gerar e ler QR Codes, desenvolvido em Python com uma interface gráfica (GUI) utilizando o `tkinter`. O programa permite que o usuário insira um texto ou URL, que será convertido em um QR Code e salvo como uma imagem `.png`. O QR Code pode ser lido posteriormente para recuperar o texto ou URL.
 
