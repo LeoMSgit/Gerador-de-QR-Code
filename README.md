@@ -33,7 +33,7 @@ Se você deseja apenas usar o programa, basta baixar o executável disponível n
    <br />
 
 
-1. Baixe o arquivo executável do software via Repositório GitHub [AQUI](https://github.com/LeoMSgit/Gerador-de-QR-Code/releases/tag/release_2) ou o arquivo compactado via Google Drive [AQUI](https://drive.google.com/file/d/1vNuqSGfoqxno3TLFV-Q-4J7KFS94tN7g/view?usp=sharing).
+1. Baixe o arquivo executável do software via Repositório GitHub [AQUI](https://github.com/LeoMSgit/Gerador-de-QR-Code/releases/tag/release_2) ou o arquivo compactado via Google Drive [AQUI](https://drive.google.com/file/d/1WWjTwp622IpxmoITRkyvgdv1_H4z-G_N/view?usp=sharing).
 
 2. Execute o arquivo 'GeradorQRCode.exe'.
 
