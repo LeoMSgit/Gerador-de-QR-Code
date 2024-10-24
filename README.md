@@ -5,7 +5,7 @@ Este é um programa simples para gerar e ler QR Codes, desenvolvido em Python co
 ## Funcionalidades
 
 - **Gerar QR Code**: Insira um texto ou URL e gere um QR Code correspondente.
-- **Ler QR Code**: Abra uma imagem de QR Code e decodifique-a para recuperar o conteúdo.
+- **Escolher Nome do Arquivo**: Alterar o nome do arquivo PNG gerado de seu QR Code.
 - **Interface Gráfica**: Interface simples e intuitiva, construída com `tkinter` e estilizada com o tema `clam`.
 - **Explorar Local de Salvamento**: Abra o explorador de arquivos diretamente na pasta onde o QR Code foi salvo.
 
