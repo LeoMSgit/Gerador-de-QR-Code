@@ -27,7 +27,9 @@ Se você deseja apenas usar o programa, basta baixar o executável disponível n
 
 ### Instruções de Uso
 <br />
+
  - Versão Google Colab (Jupyter) disponível [AQUI](https://colab.research.google.com/github/LeoMSgit/Extrator-de-Parametros-Analise-Hemograma-e-Bioquimico/blob/main/Google%20Colab%20(Cloud)%20Extrator_de_Par%C3%A2metros_An%C3%A1lise_de_Hemograma_e_Bioqu%C3%ADmico.ipynb).
+
    <br />
    <br />
 
