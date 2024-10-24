@@ -27,7 +27,7 @@ Se você deseja apenas usar o programa, basta baixar o executável disponível n
 
 ### Instruções de Uso
 
- - Versão Google Colab (Jupyter) disponível [AQUI](https://colab.research.google.com/github/LeoMSgit/Gerador-de-QR-Code/blob/main/gerador_qr_code_customizavel.ipynb).
+ - Versão Cloud Google Colab (Jupyter) disponível [AQUI](https://colab.research.google.com/github/LeoMSgit/Gerador-de-QR-Code/blob/main/gerador_qr_code_customizavel.ipynb).
 
    <br />
    <br />
